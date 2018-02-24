@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1 class="title">Crystals Collector</h1>
+	<div class="instructions">How to Play!
+			<p>The goal of this game is to populate a number equal to the randomly generated number that appears on the screen. This is achieved by clicking on the colorful crystals which have varying values. Sounds simple enough right..just be aware that the crystal values change with the start of each new game. Good luck! </p>
+	</div>
+
+	<div class="matchThis">
+		<h2>Number To Match:
+			<span id= "winningNumber"></span>
+		</h2>
+	</div>
+
+	<div class="winsLosses">
+		<h2>Wins:
+			<span id= "winCount"></span>
+			</br>
+			Losses: 
+			<span id= "lossCount"></span>
+		</h2>
+	</div>
+
+	<div class="totalCounter">
+		<h2>Your current total is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+
+	<div class="crystalContainer">
+	 <img width="150px" height="150px" class="crystalRed" src="assets/images/red.png"> 
+	 <img width="150px" height="150px" class="crystalBlu" src="assets/images/blue.png"> 
+     <img width="150px" height="150px" class="crystalGre" src="assets/images/green.png">
+     <img width="150px" height="150px" class="crystalYlw" src="assets/images/yellow.png"> 
+	</div>
+
+
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+
+
+
+</body>
+</html>
